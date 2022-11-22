@@ -1,7 +1,71 @@
-h1 {
-  font-size: 100px;
-  color: blue;
-  font-family: sophia;
+body {
+  background-color: black;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("../images/mainImage.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 350px 0;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
   font-weight: 400;
-  line-height: 100px;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: white;
+}
+
+footer {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 250px 0;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 20px;
+  }
 }
