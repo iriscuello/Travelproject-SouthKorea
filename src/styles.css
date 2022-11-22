@@ -114,4 +114,16 @@ footer a {
   header h3 {
     font-size: 20px;
   }
+
+  footer h3 {
+    font-size: 15px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+  footer li {
+    font-size: 12px;
+  }
 }
