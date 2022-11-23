@@ -288,6 +288,12 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
+  .grid-3-columns {
+    height: 2000px;
+  }
+  .secondary {
+    grid-template-columns: 1fr;
+  }
 
   section {
     padding: 30px;
