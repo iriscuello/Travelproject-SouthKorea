@@ -340,8 +340,22 @@ footer a {
   .card-header img {
     display: none;
   }
+  .first-row {
+    grid-template-columns: 1fr;
+  }
 
-  .embed {
-    aspect-ratio: 16/9;
+  .pic-one-resize {
+    height: 405px;
+  }
+
+  .pic-three-resize {
+    height: 405px;
+  }
+
+  .pic-four-resize {
+    height: 405px;
+  }
+  .second-row {
+    grid-template-columns: 1fr;
   }
 }
