@@ -88,6 +88,37 @@ body {
 #palace {
   object-position: 25% 75%;
 }
+
+.first-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+}
+
+.second-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  width: 100%;
+}
+
+.pic-one-resize {
+  height: 209px;
+}
+
+.pic-three-resize {
+  height: 209px;
+}
+
+.pic-four-resize {
+  height: 185px;
+}
+img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
 section {
   max-width: 850px;
   margin: 0 auto;
@@ -146,6 +177,13 @@ section.secondary {
   margin: 0;
   padding-bottom: 30px;
 }
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
     url("../images/mainImage.avif");
